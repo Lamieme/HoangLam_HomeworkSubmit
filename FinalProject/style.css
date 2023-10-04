@@ -8,7 +8,6 @@
     border: none;
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
-    ;
 }
 
 body {
@@ -75,10 +74,11 @@ a {
 
 footer {
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 12px;
     margin-top: 3px;
     margin-bottom: 3px;
+    color: #37402b;
 
 }
 
@@ -128,6 +128,7 @@ footer {
     margin-left: 80px;
     margin-top: 10px;
     color: #3e3e3e;
+    cursor: pointer;
 }
 
 .title .btn .change-btn {
@@ -140,6 +141,7 @@ footer {
     padding-top: 9px;
     font-weight: 500;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .content {
@@ -159,5 +161,53 @@ nguoibinhthuong-logo {
 .title-navbar {
     background-color: #37402b;
     height: 70px;
-    padding-top: 16px;
+}
+
+.title-navbar.tab.is-active:hover {
+    background: #37402b;
+}
+
+.tab a[data-switcher] {
+    cursor: pointer;
+}
+
+.tab a[data-switcher]:hover {
+    background-color: #d6cfca;
+    font-weight: 600;
+}
+
+.tab.is-active {
+    background-color: #d6cfca;
+    font-weight: 600;
+}
+
+
+.comingsoon {
+    color: #7f777a;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 50px;
+}
+
+.page {
+    display: none;
+}
+
+.page.is-active {
+    display: block;
+}
+
+.framepage2 {
+    background-color: #edf0e9;
+    width: fix-content;
+    height: 765px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    cursor: pointer;
 }

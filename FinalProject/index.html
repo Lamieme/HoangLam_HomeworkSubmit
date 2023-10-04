@@ -8,64 +8,97 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/png" href="https://i.ytimg.com/vi/FvrdWDdWfMI/maxresdefault.jpg">
     <script src="https://kit.fontawesome.com/bb9f43187b.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </head>
 
 <body>
     <div class="logo">
-        <!-- <button class="menu-btn">Menu</button> -->
-        <!-- <header>VUCATTUONG</header> -->
-        <!-- <button class="menu-btn">Shop</button> -->
-
-
         <nav>
             <a href="#" class="logo">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Vu_Cat_Tuong_logo.png" alt="logo"
                     class="logo-img">
             </a>
             <ul class="nav-title">
-                <!-- <li class="concert-name"><a href="#">Người bình thường</a></li> -->
-                <div class="title-navbar">
-                    <img src="https://vucattuong.com/wp-content/themes/vct/assets/img/nbt/kv-nbt.svg" alt="logo">
+                <div class="title-navbar tab">
+                    <a data-switcher data-tab="1"><img
+                            src="https://vucattuong.com/wp-content/themes/vct/assets/img/nbt/kv-nbt.svg" alt="logo"></a>
                 </div>
-                <li><a href="#">Merchandise</a></li>
-                <li><a href="#">Garage Sale</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Login / Signup</a></li>
-                <li><a href="#">Support</a></li>
+                <li class="tab is-active"><a data-switcher data-tab="2">Merchandise</a></li>
+                <li class="tab"><a data-switcher data-tab="3">Garage Sale</a></li>
+                <li class="tab"><a data-switcher data-tab="4">Events</a></li>
+                <li class="tab"><a data-switcher data-tab="5">Login / Signup</a></li>
+                <li class="tab"><a href="https://www.facebook.com/messages/t/820080328125739">Support</a></li>
                 <div class="shopping">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <a href="https://www.google.com"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </ul>
         </nav>
     </div>
 
-    <div class="ticket-info">
-        <div class="img">
-            <img src="https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_4288,h_2412,c_limit/BlackForest-Germany-GettyImages-147180370.jpg"
-                alt="" class="img-menu">
-        </div>
-
-        <div class="content">
-            <div class="title">
-                <!-- <h1>Người bình thường</h1>
-                <h2>Concert</h2> -->
-                <div class="nguoibinhthuong-logo">
-                    <img src="https://vucattuong.com/wp-content/themes/vct/assets/img/nbt/kv-nbt.svg" alt="logo">
+    <section class="pages">
+        <div class="page is-active" data-page="1">
+            <div class="ticket-info">
+                <div class="img">
+                    <img src="https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_4288,h_2412,c_limit/BlackForest-Germany-GettyImages-147180370.jpg"
+                        alt="" class="img-menu">
                 </div>
-                <p>Giá vé: </p>
-                <p>1,500,000đ</p>
 
-                <p>Membership: </p>
-                <p>
-                    500 <i class="fa-solid fa-star"></i> + 1,000,000đ
-                </p>
-                <div class="btn">
-                    <div class="buy-btn">MUA VÉ</div>
-                    <div class="change-btn">ĐỔI VÉ</div>
+                <div class="content">
+                    <div class="title">
+                        <div class="nguoibinhthuong-logo">
+                            <img src="https://vucattuong.com/wp-content/themes/vct/assets/img/nbt/kv-nbt.svg"
+                                alt="logo">
+                        </div>
+                        <p>Giá vé: </p>
+                        <p>1,500,000đ</p>
+
+                        <p>Membership: </p>
+                        <p>
+                            500 <i class="fa-solid fa-star"></i> + 1,000,000đ
+                        </p>
+                        <div class="btn">
+                            <div class="buy-btn">MUA VÉ</div>
+                            <div class="change-btn">ĐỔI VÉ</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- Merchandise -->
+        <div class="page" data-page="2">
+            <div class="framepage2">
+                <p class="comingsoon">COMING SOON</p>
+            </div>
+        </div>
+
+        <!-- Garage Sale -->
+        <div class="page" data-page="3">
+            <div class="framepage2">
+                <p class="comingsoon">COMING SOON</p>
+            </div>
+        </div>
+
+        <!-- Events -->
+        <div class="page" data-page="4">
+            <div class="framepage2">
+                <p class="comingsoon">COMING SOON</p>
+            </div>
+        </div>
+
+        <!-- Login / Sign up -->
+        <div class="page" data-page="5">
+            <div class="framepage2">
+                <p class="comingsoon">COMING SOON</p>
+            </div>
+        </div>
+        <div class="page" data-page="6">
+            <div class="framepage2">
+                <p class="comingsoon">COMING SOON</p>
+            </div>
+        </div>
+
+    </section>
 </body>
 
 <footer>
