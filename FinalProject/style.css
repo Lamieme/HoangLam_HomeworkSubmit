@@ -222,46 +222,46 @@ i {
 }
 
 .framepage2 {
+    position: flex;
     background-color: #e5e5e5;
-    width: fix-content;
-    height: 2000px;
+    width: 90%;
+    height: 1850px;
     margin-left: 150px;
-
 }
 
+.merchandise-container {
+    display: flex;
+    width: 1300px;
+    gap: 25px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.merch-sale {}
+
 .merch-img {
-    position: absolute;
     background-size: cover;
     width: 1300px;
     margin-left: 50px;
-    margin-top: 25px;
 }
 
 .merch-content {
-    position: absolute;
     background-size: cover;
     width: 1300px;
-    margin-left: 50px;
-    margin-top: 265px;
+    margin: 50px 20px 20px 50px;
     color: #b2a7a9;
     font-weight: 600;
 }
 
 .m-product {
-    position: absolute;
     width: 300px;
     height: 300px;
-    margin-top: 325px;
-    margin-left: 50px;
 }
 
 .ticketInfo {
     background-color: #ffffff;
-    position: absolute;
     width: 300px;
     height: 175px;
-    margin-top: 625px;
-    margin-left: 50px;
     text-align: center;
 }
 
