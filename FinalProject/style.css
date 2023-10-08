@@ -31,7 +31,6 @@ nav {
 }
 
 .logo {
-
     text-align: center;
     display: flex;
     justify-content: center;
@@ -63,10 +62,10 @@ a {
 }
 
 
-/* .nav-title a:hover {
+.nav-title a:hover {
     background-color: #d6cfca;
     font-weight: 600;
-} */
+}
 
 .shopping {
     z-index: 10;
@@ -175,10 +174,10 @@ nguoibinhthuong-logo {
 } */
 
 
-/* .tab a[data-switcher]:hover {
+.tab a[data-switcher]:hover {
     background-color: #d6cfca;
     font-weight: 600;
-} */
+}
 
 
 .tab.is-active {
@@ -225,8 +224,9 @@ i {
     position: flex;
     background-color: #e5e5e5;
     width: 90%;
-    height: 1850px;
+    height: 1885px;
     margin-left: 150px;
+    margin-bottom: 5px;
 }
 
 .merchandise-container {
@@ -237,12 +237,12 @@ i {
     margin-bottom: 50px;
 }
 
-.merch-sale {}
 
 .merch-img {
     background-size: cover;
     width: 1300px;
     margin-left: 50px;
+    margin-top: 20px;
 }
 
 .merch-content {
@@ -310,4 +310,15 @@ i {
     padding-bottom: 10px;
     font-size: 14px;
     color: #7f777a;
+}
+
+.bestChoice {
+    font-size: 13px;
+    font-weight: 500;
+    color: #7f777a;
+
+}
+
+.fa-bolt {
+    font-size: 10px;
 }
