@@ -387,12 +387,16 @@ i {
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
-    padding-top: 30px
+    padding-top: 15px
 }
 
 .remember-forgot label input {
     accent-color: #37402b;
     text-decoration: none;
+}
+
+.remember-forgot label {
+    padding-left: 24px;
 }
 
 .remember-forgot .checkbox {
@@ -423,6 +427,13 @@ i {
 
 .wrapper .register-link {
     font-size: 14px;
-    text-align: center;
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 0px;
+
+    padding-left: 25px;
+}
+
+.wrapper .register-link a {
+    padding: 0px;
+    display: initial;
 }
