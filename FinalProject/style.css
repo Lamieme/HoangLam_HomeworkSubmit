@@ -124,7 +124,7 @@ footer {
     width: 100px;
     height: 40px;
     text-align: center;
-    padding-top: 9px;
+    /* padding-top: 9px; */
     font-weight: 600;
     margin-left: 80px;
     margin-top: 10px;
@@ -139,7 +139,7 @@ footer {
     width: 100px;
     height: 40px;
     text-align: center;
-    padding-top: 9px;
+    /* padding-top: 9px; */
     font-weight: 500;
     margin-top: 10px;
     cursor: pointer;
@@ -321,4 +321,108 @@ i {
 
 .fa-bolt {
     font-size: 10px;
+}
+
+.framepage5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 150px;
+    background: url('https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_4288,h_2412,c_limit/BlackForest-Germany-GettyImages-147180370.jpg') no-repeat;
+}
+
+.wrapper {
+    width: 410px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* 
+    padding-left: 125px;
+    padding-top: 20px; */
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px
+}
+
+.input-box {
+    width: 90%;
+    height: 50px;
+    margin: 30px 23px;
+    padding-top: 20px
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #37402b;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input :placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 35px;
+    transform: translateY(90%);
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    padding-top: 30px
+}
+
+.remember-forgot label input {
+    accent-color: #37402b;
+    text-decoration: none;
+}
+
+.remember-forgot .checkbox {
+    color: #37402b;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .submit-btn {
+    width: 90%;
+    height: 45px;
+    background-color: #d6cfca;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    /* margin-top: 10px */
+    margin: 10px 23px;
+}
+
+.wrapper .submit-btn:hover {
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
 }

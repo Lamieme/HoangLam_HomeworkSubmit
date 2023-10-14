@@ -25,3 +25,11 @@ window.onload = () => {
         const next_page = document.querySelector(`.pages .page[data-page="${page_id}"]`);
         next_page.classList.add('is-active');
     }
+
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+      
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }

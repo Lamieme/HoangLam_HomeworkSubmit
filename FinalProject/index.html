@@ -28,6 +28,8 @@
                 <li class="tab"><a data-switcher data-tab="3">Garage Sale</a></li>
                 <li class="tab"><a data-switcher data-tab="4">Events</a></li>
                 <li class="tab"><a data-switcher data-tab="5">Login / Signup</a></li>
+                <!-- <button class="open-btn">Login / Signup</button> -->
+
                 <li class="tab"><a href="https://www.google.com">Support</a></li>
                 <div class="shopping">
                     <a href="https://www.google.com"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -58,8 +60,8 @@
                             500 <i class="fa-solid fa-star"></i> + 1,000,000đ
                         </p>
                         <div class="btn">
-                            <div class="buy-btn">MUA VÉ</div>
-                            <div class="change-btn">ĐỔI VÉ</div>
+                            <button class="buy-btn" onclick="openForm()">MUA VÉ</button>
+                            <button class="change-btn" onclick="openForm()">ĐỔI VÉ</button>
                         </div>
                     </div>
                 </div>
@@ -101,8 +103,6 @@
                                 alt="EPViNhat">
                             <div class="ticketInfo">
                                 <p class="m-ticket">EP Vi Nhất</p>
-                                <!-- <p class="bestChoice"><i class="fa-solid fa-bolt"></i> BEST CHOICE <i
-                                        class="fa-solid fa-bolt"></i></p> -->
                                 <div class="merch-price">
                                     <p class="m-price">Giá: </p>
                                     <p class="m-priceNum">450.000đ</p>
@@ -267,22 +267,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Product 9 -->
-                    <!-- <div class="merchandise-product">
-                        <div class="merch-sale">
-                            <img class="m-product"
-                                src="https://vucattuong.com/wp-content/uploads/2023/09/item-ticket-600x600.jpg"
-                                alt="ticket">
-                            <div class="ticketInfo">
-                                <p class="m-ticket">Vé điện tử - Người Bình Thường</p>
-                                <div class="merch-price">
-                                    <p class="m-price">Giá: </p>
-                                    <p class="m-priceNum">1.500.000đ</p>
-                                </div>
-                                <p class="m-addToShop">Thêm vào giỏ hàng <i class="fa-solid fa-plus"></i></p>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -299,15 +283,45 @@
         <!-- Events -->
         <div class="page" data-page="4">
             <div class="framepage4">
-                <p class="comingsoon">COMING SOON</p>
+
+
             </div>
         </div>
 
         <!-- Login / Sign up -->
         <div class="page" data-page="5">
             <div class="framepage5">
-                <p class="comingsoon">COMING SOON</p>
+                <div class="wrapper">
+                    <!-- <img class="bg-login" src="https://cdn.firstcry.com/education/2022/05/10114506/695934271.jpg" alt="">
+                    <form action=""> -->
+                    <h1>Login</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username required">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password required">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="remember-forgot checkbox">
+                        <label>
+                            <input type="checkbox">Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-btn">Login</button>
+
+                    <div class="register-link">
+                        <p>Don't have an account?<a href="#">Register</a>
+                        </p>
+                    </div>
+                    </form>
+                </div>
+
+
             </div>
+
+
+        </div>
         </div>
         <div class="page" data-page="6">
             <div class="framepage6">
