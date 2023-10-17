@@ -26,7 +26,7 @@
                 </div>
                 <li class="tab is-active"><a data-switcher data-tab="2">Merchandise</a></li>
                 <li class="tab"><a data-switcher data-tab="3">Garage Sale</a></li>
-                <li class="tab"><a data-switcher data-tab="4">Events</a></li>
+                <!-- <li class="tab"><a data-switcher data-tab="4">Events</a></li> -->
                 <li class="tab"><a data-switcher data-tab="5">Login / Signup</a></li>
                 <!-- <button class="open-btn">Login / Signup</button> -->
 
@@ -292,8 +292,6 @@
         <div class="page" data-page="5">
             <div class="framepage5">
                 <div class="wrapper">
-                    <!-- <img class="bg-login" src="https://cdn.firstcry.com/education/2022/05/10114506/695934271.jpg" alt="">
-                    <form action=""> -->
                     <h1>Login</h1>
                     <div class="input-box">
                         <input type="text" placeholder="Username required">
@@ -303,20 +301,35 @@
                         <input type="password" placeholder="Password required">
                         <i class="fa-solid fa-lock"></i>
                     </div>
-                    <div class="remember-forgot checkbox">
+                    <div class="remember-forgot">
                         <label>
-                            <input type="checkbox">Remember me
+                            <input type="checkbox"> Remember me
                         </label>
                     </div>
                     <button type="submit" class="submit-btn">Login</button>
 
                     <div class="register-link">
-                        <p>Don't have an account?<a href="#">Register</a>
+                        <p>Don't have an account? <a class="register" href="#">Register</a>
+
                         </p>
                     </div>
                     </form>
-                </div>
 
+                </div>
+                <div class="modal-box hide">
+
+                    <h1>Create an account</h1>
+                    <div class="input-create">
+                        <input type="text" placeholder="Username required">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-create">
+                        <input type="password" placeholder="Password required">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <button type="submit" class="submit-createbtn">Create</button>
+                    <i class="close"></i>
+                </div>
 
             </div>
 
