@@ -24,13 +24,13 @@
                         <img src="https://vucattuong.com/wp-content/themes/vct/assets/img/nbt/kv-nbt.svg"
                             alt="logo-nguoibinhthuong"></a>
                 </div>
-                <li class="tab is-active"><a data-switcher data-tab="2">Merchandise</a></li>
-                <li class="tab"><a data-switcher data-tab="3">Garage Sale</a></li>
+                <li class="tab tab1 is-active"><a data-switcher data-tab="2">Merchandise</a></li>
+                <li class="tab tab1"><a data-switcher data-tab="3">Garage Sale</a></li>
                 <!-- <li class="tab"><a data-switcher data-tab="4">Events</a></li> -->
-                <li class="tab"><a data-switcher data-tab="5">Login / Signup</a></li>
+                <li class="tab tab1"><a data-switcher data-tab="5">Login / Signup</a></li>
                 <!-- <button class="open-btn">Login / Signup</button> -->
 
-                <li class="tab"><a href="https://www.google.com">Support</a></li>
+                <li class="tab tab1"><a href="https://www.google.com">Support</a></li>
                 <div class="shopping">
                     <a href="https://www.google.com"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
@@ -309,26 +309,26 @@
                     <button type="submit" class="submit-btn">Login</button>
 
                     <div class="register-link">
-                        <p>Don't have an account? <a class="register" href="#">Register</a>
+                        <p>Don't have an account? <a class="register" href="#" onclick="showModal()">Register</a>
 
                         </p>
                     </div>
                     </form>
 
                 </div>
-                <div class="modal-box hide">
+                <div class="modal-box">
 
                     <h1>Create an account</h1>
                     <div class="input-create">
-                        <input type="text" placeholder="Username required">
+                        <input type="text" name="username" placeholder="Username required">
                         <i class="fa-solid fa-user"></i>
                     </div>
                     <div class="input-create">
-                        <input type="password" placeholder="Password required">
+                        <input type="password" name="password" placeholder="Password required">
                         <i class="fa-solid fa-lock"></i>
                     </div>
-                    <button type="submit" class="submit-createbtn">Create</button>
-                    <i class="close"></i>
+                    <button type="submit" class="submit-createbtn" onclick="submit()">Create</button>
+                    <i class="fa-solid fa-x" onclick="closeModal()"></i>
                 </div>
 
             </div>

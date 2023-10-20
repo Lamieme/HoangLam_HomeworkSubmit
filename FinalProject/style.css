@@ -63,7 +63,7 @@ a {
 
 
 .nav-title a:hover {
-    background-color: #d6cfca;
+    /* background-color: #d6cfca; */
     font-weight: 600;
 }
 
@@ -174,13 +174,17 @@ nguoibinhthuong-logo {
 } */
 
 
-.tab a[data-switcher]:hover {
-    background-color: #d6cfca;
-    font-weight: 600;
+.title-navbar .tab:hover {
+    background-color: none;
 }
 
 
-.tab.is-active {
+
+.tab:hover {
+    background: #d4cfc9;
+}
+
+.tab1.is-active {
     background-color: #d6cfca;
     font-weight: 600;
 }
@@ -456,7 +460,8 @@ i {
 
 
 .modal-box {
-    display: flex;
+    position: absolute;
+    display: none;
     flex-direction: column;
     align-items: center;
     max-width: 420px;

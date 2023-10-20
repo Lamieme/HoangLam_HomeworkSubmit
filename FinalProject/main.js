@@ -39,18 +39,16 @@ function logInFunction() {
 }
 
 
-var btnOpen = document.querySelector('.register')
-var modal = document.querySelector('.modal-box')
-var btnClose = document.querySelector('.close')
-
-function toggleModal() {
-    modal.classList.toggle('hide')
-
+function showModal() {
+    document.querySelector(".modal-box").style.display = "flex"
 }
-btnOpen.addEventListener('click', toggleModal)
-btnClose.addEventListener('click', toggleModal)
-modal.addEventListener('click', function (e) {
-    if (e.target == e.currentTarget) {
-        toggleModal()
-    }
-}) 
+function closeModal() {
+    document.querySelector(".modal-box").style.display = "none"
+}
+
+function submit() {
+    const username = document.querySelector("input[name = username]").value
+    const password = document.querySelector("input[name = password]").value
+    localStorage.setItem("username", username)
+    localStorage.setItem("password", password)
+}
